@@ -45,7 +45,7 @@ This code was designed to create a table of mitochondrial variants, their associ
 18. GB Count — (MitoMap) GenBank count
 19. GB Frequency — (MitoMap) GenBank frequency. See the following for more information on columns 18 and 19 (https://www.mitomap.org/MITOMAP/GBFreqInfo)
  
-Any cells containing "-" are unknown values, and should be treated as distinct from zero values in the table.
+NOTE: Any cells containing "-" are unknown values, and should be treated as distinct from zero values in the table.
 
 ### Notes for the (*) indicated columns (from MitoMap):
 * LHON — Leber Hereditary Optic Neuropathy
