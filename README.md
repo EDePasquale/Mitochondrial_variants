@@ -25,10 +25,10 @@ This code was designed to create a table of mitochondrial variants, their associ
 
 ## Final Output Description:
 
-1. Position — 1-16569 bp. You will notice that there are not the expected 49,708 rows but instead a few hundred more. This is because sometimes more than one gene is associated with the same position and therefore it receives multiple lines. This shouldn’t be an issue.
+1. Position — 1-16569 bp. The total number of possible variants is 3x16,569+1=49,708 because the mitochondrial genome (NC_012920) is 16,569 bp with three possible variants each, except base 3,107, which has four possible variants (A, C, T, G) because the reference is N. You will notice that there are not the expected 49,708 rows but instead a few hundred more. This is because sometimes more than one gene is associated with the same position and therefore it receives multiple lines
 2. Reference — reference nucleotide from https://www.genome.jp/dbget-bin/www_bget?-f+refseq+NC_012920
 3. Variant — each possible variant, 3 for all positions with the exception of 3,107, which has 4
-4. Consequence — (VEP) predicted consequence of the variant. The following two graphs are part of the VEP output and give an idea of the breakdown for all 49,708 input variants
+4. Consequence — (VEP) predicted consequence of the variant
 5. Symbol — (VEP) gene symbol
 6. Gene — (VEP) Ensembl gene ID
 7. Feature type — (VEP) type of feature affected: transcript, regulatory feature, or motif feature
