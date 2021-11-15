@@ -1,5 +1,5 @@
 # Mitochondrial Variants
-This code was designed to create a table of mitochondrial variants, their associated amino acid changes (if any), which features these changes effect, predicted consequences (with SIFT and PolyPhen scores), associated diseases, and the frequency of these variants in the general population. Sources for this information include Ensembl Variant Effect Predictor, MitoMap, and GenomeNet.
+This code was designed to create a table of mitochondrial variants, their associated amino acid changes (if any), which features these changes affect, predicted consequences (with SIFT and PolyPhen scores), associated diseases, and the frequency of these variants in the general population. Sources for this information include Ensembl Variant Effect Predictor, MitoMap, and GenomeNet.
 
 ## Code:
 
